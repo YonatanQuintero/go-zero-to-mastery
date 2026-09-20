@@ -77,7 +77,7 @@ go tool pprof -http=:8081 mem.pprof
 > 
 > **La Solución en Go:** Go no posee excepciones ni `try/catch`. Tratar los errores como valores devueltos en la tupla `(resultado, error)` fuerza al desarrollador a tomar una decisión explícita en cada punto de falla. El uso de `fmt.Errorf("operación fallida: %w", err)` preserva la cadena de causalidad, permitiendo a los controladores HTTP inspeccionar la causa raíz con `errors.Is` sin romper el encapsulamiento ni asumir suposiciones en tiempo de ejecución.
 
-- [ ] **01. Word & Char Frequency Counter**
+- [ ] **[01. Word & Char Frequency Counter](file:///home/yonax73/computer-science/01-basics/01-word-frequency/README.md)**
   - Procesar texto crudo usando `bufio.Scanner`.
   - Diferenciar entre `byte` (ASCII/raw) y `rune` (UTF-8 code points).
   - Almacenar resultados en un `map[rune]int` y ordenar llaves alfabéticamente.
