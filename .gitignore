@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Profiling and traces
+*.pprof
+trace.out
+profile.pprof
+cpu.pprof
+mem.pprof
+
+# Dependency directories (remove the rule if you intend to vendor your dependencies)
+vendor/
+
+# Go workspace file
+go.work
+
+# Environment variables & secrets
+.env
+*.local
+*.secret.json
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files & logs
+tmp/
+*.log
