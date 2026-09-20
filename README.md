@@ -30,6 +30,7 @@ Hoja de ruta, repositorio de práctica deliberada y manual de ingeniería avanza
 ├── 09-ai-bigdata-security/ # 10 Proyectos Weekend: IA + Go + Big Data + Ciberseguridad
 ├── docs/                 # Documentación técnica profunda, incidentes y troubleshooting
 │   └── PRAX_TROUBLESHOOTING.md # 10 Errores críticos de PRAX y 20 retos de depuración en Go
+├── CHANGELOG.md          # Registro de versiones según Keep a Changelog y SemVer
 └── Makefile              # Automatización de builds, tests con -race, linters y auditorías
 ```
 
